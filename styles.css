@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.navbar {
+  background-color: #252323;
+}
+
+.background {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.navbar-dark {
+  margin-top: -8px;
+}
+
+button {
+  margin-top: -3px;
+}
+
+.plex-logo {
+  position: absolute;
+  width: 83%;
+  height: 80%;
+  margin-top: -20px;
+  margin-left: 8px;
+}
+
+.form-inline {
+  position: absolute;
+  padding-left: 50%;
+  left: 110px;
+  top: 7px;
+}
+
+.form-control {
+  background-color: #403d39;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.row2 {
+  padding-top: 100px;
+}
