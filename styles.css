@@ -55,5 +55,19 @@ button {
 }
 
 .row2 {
-  padding-top: 100px;
+  padding-top: 30px;
+}
+
+.title {
+  padding-top: 20px;
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.year {
+  margin-top: -15px;
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
 }
