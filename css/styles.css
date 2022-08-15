@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background-color: black;
+}
 @media (max-width: 576px) {
   body {
     background-color: lightblue;
@@ -13,11 +15,10 @@
 }
 
 .background {
-  background-image: url('images/background.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .navbar {
@@ -71,4 +72,10 @@ button {
   color: antiquewhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
+}
+footer {
+  text-align: center;
+  padding-top: 16px;
+  background: black;
+  color: white;
 }
